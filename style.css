@@ -1,0 +1,41 @@
+body{
+
+    font-size: 20px;
+    color:black;
+    background-color:rgb(107, 222, 130);
+    text-align: center;
+
+}
+
+img{
+    width : 250px;
+    height: 350px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.gallery{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+g*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins' , sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+
+}
